@@ -10,10 +10,11 @@ function checkPalindrome(string) {
 
         // check if first and last string are same
         if (string[i] !== string[len - 1 - i]) {
-            return 'It is not a palindrome';
+            return alert("It is not a palindrome");
         }
     }
-    return 'It is a palindrome';
+    return alert("It is a palindrome");
+    
 }
 
 // take input
